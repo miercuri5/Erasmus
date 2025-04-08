@@ -15,3 +15,35 @@ git push origin main
 synchronize changes
 git pull origin main //download from remote repository
 git push origin main //upload to the remote repository
+
+Steps to initialise local repository
+git init
+
+Add all archives and folders in the local repository
+git add .
+
+Save the history
+git commit -m "description of changes"
+
+upload to github(publish)
+git push origin main
+
+synchronize changes
+git pull origin main //download from remote repository
+git push origin main //upload to the remote repository
+
+Steps to initialise local repository
+git init
+
+Add all archives and folders in the local repository
+git add .
+
+Save the history
+git commit -m "description of changes"
+
+upload to github(publish)
+git push origin main
+
+synchronize changes
+git pull origin main //download from remote repository
+git push origin main //upload to the remote repository
