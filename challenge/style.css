@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+}
+
+figure{
+    width: 100%;
+}
+
+section .card{
+    background-color: lightskyblue;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+section .card figure{
+    width: 100%;
+}
+
+section .card figure img{
+    width: 100%;   
+}
+
+section .card h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 5px 0px;
+}
+
+section .card p{
+    font-family: monospace;
+    font-size: 2em;
+    padding: 5px 0px;
+    margin: 10px 0px 5px 0px;
+}
+
+section .card p::first-letter{
+    font-weight: bold;
+    color: darkslategrey;
+    font-size: 2.5rem;
+}
+

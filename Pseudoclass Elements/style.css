@@ -1,0 +1,50 @@
+/* Pseudoclasses */
+
+p:hover{
+    color: navy;
+    font-size: large;
+}
+
+input:focus{
+    padding: 5px;
+    background-color: darkslateblue;
+    font-size: 1.5em;
+    color: azure;
+}
+
+div{
+    width: 100%;
+    background-color: lightsteelblue;
+    color: darkslategray;
+    padding: 5px;
+}
+
+div p:nth-child(3){
+    font-style: italic;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+/* Pseudoelements */
+
+p::first-letter{
+    color: cornflowerblue;
+    font-size: 1.5em;
+}
+
+p::first-line{
+    color: mediumslateblue;
+}
+
+p::before{
+    content: "⚔️";
+}
+
+p::after{
+    content: "❄️";
+}
+
+::placeholder{
+    color: rebeccapurple;
+    padding: 10px;
+}

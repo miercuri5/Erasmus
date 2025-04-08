@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+
+}
+
+section{
+    margin: 0 auto;
+    width: 80%;
+}
+
+section h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form label{
+    margin: 10px;
+    padding: 5px;
+}
+
+.form input{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid green;
+    box-shadow: 5px 2px 5px darkgreen;
+}
+
+.form guessField{
+    width: 50px;
+    box-shadow: 5px 2px 5px darkgreen;
+}
+
+.form .guessField:active{
+    border: 1px solid green;
+    box-shadow: 5px 2px 5px darkgreen;
+}
+
+.form guessSubmit{
+    width: 200px;
+    box-shadow: 5px 2px 5px darkgreen;
+}
+
+.resetButton {
+    width: 200px;
+    box-shadow: 5px 2px 5px darkgreen;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+/*Combinator selectors*/
+/*Combinators*/
+
+/*Descendent Combinator*/
+/*div p{----} aplica stilurile tuturor descendentilor directi si indirecti ai lui div*/
+
+div{
+    background-color: goldenrod;
+
+}
+
+div p{
+    color: blanchedalmond;
+    font-size: xx-large;
+}
+/*child combinator*/
+/*fii directi*/
+/*div > p{---} aplica stilurile tuturor fiilor directi ai lui div*/
+
+div > p{
+    background-color: darkgoldenrod;
+}
+
+/*Next-sibling combinator*/
+/*elemente adiacente*/
+/*aplica stilurile paragrafelor adiacente lui div*/
+
+div + p{
+    background-color: khaki;
+    color: midnightblue;
+    padding: 5px;
+}
+
+/* Subsequent sibling */
+/* Older brothers */
+/* Aplica stilurile tuturor paragrafelor frati ai lui div  */
+
+div ~ p{
+    font-size: 2em;
+    color: darkslategrey;
+}
+
+/* Gruparea selectorilor */
+
+h3, h5, .box{
+    padding: 10px;
+    background-color: black;
+    color: gold;
+}

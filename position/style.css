@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: darkgreen;
+    z-index: 100;
+}
+
+header h1{
+    width: 25%;
+    margin-left: 5px;
+}
+
+header h1::before{
+    content: "🐄";
+}
+
+header nav{
+    width: 75%;
+    padding: 10px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul li{
+    margin: 0px 5px;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+}
+
+.hero figure{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero figure img{
+    width: 100%;
+}
+
+.hero .text{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: springgreen;
+    text-align: center;
+}
+
+.hero .text .h2{
+    font-size: 2rem;
+}
+
+.blog{
+    width: 100%;
+    background-color: mediumseagreen;
+    padding: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog article{
+    width: 80%;
+    margin: 10px 0px;
+    padding: 5px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+.codingLanguage{
+    width: 100%;
+    background-color: black;
+    color: red;
+}
+
+.codingLanguage ul{
+    margin: 15px;
+}

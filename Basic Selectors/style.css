@@ -1,0 +1,29 @@
+/*Universal Selector*/
+
+*{
+    background-color: forestgreen;
+    color: floralwhite;
+    font-style: italic;
+}
+
+header{
+    background-color: darkolivegreen;
+    color: silver;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*Class Selector*/
+
+.subtitlu{
+    background-color: rgb(58, 101, 55);
+    color: rgb(211, 211, 211);
+}
+
+/*ID Selector*/
+
+#description{
+    background-color: darkgreen;
+    color: antiquewhite;
+    font-size: medium;
+}

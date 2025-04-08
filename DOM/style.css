@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: monospace;
+    font-size: 18px;
+}
+
+header{
+    background-color: aqua;
+    color: azure;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1, h2, h3{
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+section{
+    background-color: darkblue;
+    padding: 10px 5px;
+}

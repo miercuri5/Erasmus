@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: aquamarine;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 10px 10px 10px; /*top-bottom right.left*/
+    border: 2px dotted darkslategrey;
+}
+
+/* div display by block  */
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    color: azure;
+    padding: 10px rgb(170, 0, 0);
+    border: 2px solid aqua;
+    border-radius: 100px 0px 100px 0px;
+    text-align: center;
+    box-shadow: 50px 10px 15px darkslateblue;
+}
+
+/* a display by inline */
+a{
+    display: inline-block;
+    margin-top: 10px;
+    background-color:darkgoldenrod;
+    padding: 5px;
+    width: 100px;
+}
+
+/* button display inline-block */
+button{
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color:darkred;
+    border: none;
+}
