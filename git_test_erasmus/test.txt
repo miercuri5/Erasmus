@@ -1,1 +1,15 @@
 We are going to connect git to github
+
+Steps to initialise local repository
+git init
+
+Add all archives and folders in the local repository
+git add .
+
+Save the history
+git commit -m "description of changes"
+
+upload to github(publish)
+git push origin main
+
+synchronize changes
