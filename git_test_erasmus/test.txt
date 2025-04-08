@@ -13,3 +13,5 @@ upload to github(publish)
 git push origin main
 
 synchronize changes
+git pull origin main //download from remote repository
+git push origin main //upload to the remote repository
