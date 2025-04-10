@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  background-color: #7b2cbf;
+}
+
+header {
+  background-color: #ff8300;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-left img {
+  height: 50px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.header-left img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: 400px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.header-right ol {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.header-right a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.col {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.side-column {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.side-column img {
+  width: 300px;
+  height: 450px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.side-column img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.main-content {
+  flex: 1;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px lightslategray;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+#resultsInfo {
+  text-align: center;
+  font-style: italic;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ff8300;
+  color: white;
+}
+
+ul, ol {
+  list-style-type: none; 
+  padding-left: 20px; 
+}
+
+li {
+  position: relative; 
+  padding-left: 30px; 
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); 
+  width: 20px; 
+  height: 20px;
+  background-image: url('Balle.png'); 
+  background-size: cover;
+}
+
+h2 a {
+  text-decoration: none;
+  color: black;
+}
+
